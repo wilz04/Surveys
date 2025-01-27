@@ -1,0 +1,99 @@
+<html>
+	<head>
+		<title>
+		</title>
+	  <style type="text/css">
+			<!--
+			body {
+				border: 1px solid #000000;
+			}
+			input, label, fieldSet {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 12px;
+			}
+			.title {
+				font-family: Verdana, Arial, Helvetica, sans-serif;
+				font-size: 24px;
+				font-weight: bold;
+			}
+			-->
+    </style>
+	</head>
+	<body bgColor="buttonface">
+		<form name="fMain" method="post" action="SaveForm.htm">
+			<center class="title">
+				Formulación de preguntas
+				<br><br>
+			</center>
+			<fieldset class="2Dcomponent">
+				<legend>
+					Pregunta ?
+				</legend>
+				<br>
+				<label class="text">
+					&nbsp;
+					Digita aquí tu pregunta:
+					&nbsp;
+				</label>
+				<input class="2Dcomponent" id="tQuestion" type="text" size="60" name="tQuestion">
+				<br><br>
+			</fieldset>
+			<br>
+			<fieldset class="2Dcomponent">
+				<legend>
+					Respuesta !
+				</legend>
+				<br>
+				&nbsp;
+				<table>
+					<tr>
+						<td>
+							<input id="radioGroup" type="radio" checked name="radioGroup">
+							<label class="text">
+								única
+							</label>
+						</td>
+						<td>
+							<label class="text">
+								Posibles respuestas:
+								&nbsp;
+							</label>
+							<input class="2Dcomponent" id="tAnswersOne" type="text" size="60" name="tAnswersOne">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="radioGroup" type="radio" name="radioGroup">
+							<label class="text">
+								múltiple
+							</label>
+						</td>
+						<td>
+							<label class="text">
+								Posibles respuestas:
+								&nbsp;
+							</label>
+							<input class="2Dcomponent" id="tAnswersPlus" type="text" size="60" name="tAnswersPlus">
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<input id="radioGroup" type="radio" name="radioGroup">
+							<label class="text">
+								de desarrollo
+							</label>
+						</td>
+						<td>&nbsp;
+							
+						</td>
+					</tr>
+				</table>
+				<br>
+			</fieldset>
+			<br>
+			<center>
+				<input type="submit" name="Submit" value="Enviar">
+			</center>
+		</form>
+	</body>
+</html>
